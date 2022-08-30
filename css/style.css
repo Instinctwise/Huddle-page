@@ -296,7 +296,9 @@ body{
   .conversation-text{
     margin: auto;
     width: 100%;
-
+  }
+  .conversation img{
+    width: 90%;
   }
   .users{
     flex-direction: column;
@@ -324,7 +326,7 @@ body{
   .bg-footer-mobl{
     display: block;
     position: absolute;
-    transform: translate(-10%, -160%);
+    transform: translate(-10%, -150%);
   }
   .bg-image-5{
     display: none;
