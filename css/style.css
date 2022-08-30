@@ -173,7 +173,7 @@ body{
 }
 .bg-image-5{
   position: absolute;
-  transform: translate(-8%, -150%);
+  transform: translate(-8%, -140%);
 }
 .bg-footer-mobl{
   display: none;
@@ -237,6 +237,9 @@ body{
 }
 
 @media screen and ( max-width:800px) {
+  body{
+    overflow-x: hidden;
+  }
   .navbar{
     flex-direction: column;
     text-align: center;
@@ -326,7 +329,7 @@ body{
   .bg-footer-mobl{
     display: block;
     position: absolute;
-    transform: translate(-10%, -150%);
+    transform: translate(-30%, -150%);
   }
   .bg-image-5{
     display: none;
@@ -362,4 +365,12 @@ body{
     width: 100%;
   }
   
+}
+@media screen and (max-width:400px) {
+  .bg-footer-mobl{
+    transform: translate(-50%, -150%);
+  }
+  .build a{
+    margin-bottom: 8rem;
+  }
 }
