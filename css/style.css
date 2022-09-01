@@ -240,8 +240,7 @@ body{
   body{
     overflow-x: hidden;
   }
-  .navbar{
-    flex-direction: column;
+  .navbar{ 
     text-align: center;
     gap: 2rem;
   }
@@ -329,7 +328,7 @@ body{
   .bg-footer-mobl{
     display: block;
     position: absolute;
-    transform: translate(-30%, -150%);
+    transform: translate(-15%, -150%);
   }
   .bg-image-5{
     display: none;
@@ -366,6 +365,17 @@ body{
   }
   
 }
+
+@media screen and (max-width:550px) {
+  .navbar a{
+    width: 80%;
+    padding: 6px 10px;
+  }
+  .navbar img{
+    width: 90%;
+  }
+}
+
 @media screen and (max-width:400px) {
   .bg-footer-mobl{
     transform: translate(-50%, -150%);
